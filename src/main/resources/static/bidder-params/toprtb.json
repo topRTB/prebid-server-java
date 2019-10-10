@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Toprtb Params",
+  "description": "A schema which validates params accepted by the Toprtb",
+  "type": "object",
+  "properties": {
+    "adUnitId": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "adUnitId"
+  ]
+}
