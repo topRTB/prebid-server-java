@@ -1,7 +1,7 @@
 adapters:
   toprtb:
-    enabled: false
-    endpoint: http://192.168.1.60:8080/ssp/rest/ReqAd
+    enabled: true
+    endpoint: https://ssp.toprtb.com/ssp/rest/ReqAd/post
     pbs-enforces-gdpr: true
     modifying-vast-xml-allowed: true
     deprecated-names:
@@ -19,4 +19,4 @@ adapters:
       redirect-url: /setuid?bidder=toprtb&gdpr={{gdpr}}&gdpr_consent={{gdpr_consent}}&uid=
       cookie-family-name: toprtb
       type: redirect
-      support-cors: false
+      support-cors: true
